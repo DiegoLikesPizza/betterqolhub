@@ -19,12 +19,12 @@ async function loadClients() {
                 }) || [],
                 services: client.services || [],
                 prices: client.price || [],
-                github: client['github link'],
+                github: client['github_link'],
                 download: client['download link'],
-                website: client['website link'],
-                discord: client['discord link'],
-                discordIcon: client['discord server id'] && client['discord icon hash'] 
-                    ? `https://cdn.discordapp.com/icons/${client['discord server id']}/${client['discord icon hash']}.webp?size=64`
+                website: client['website_link'],
+                discord: client['discord_link'],
+                discordIcon: client['discord_server_id'] && client['discord_icon_hash'] 
+                    ? `https://cdn.discordapp.com/icons/${client['discord_server_id']}/${client['discord_icon_hash']}.webp?size=64`
                     : null
             }));
             return clientsData;

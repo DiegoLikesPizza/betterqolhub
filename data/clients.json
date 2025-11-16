@@ -209,7 +209,7 @@
     "type": "Cheat Client",
     "version": ["1.21.10"],
     "price": ["free"],
-    "features": ["Dungeons", "F7/M7"],
+    "features": ["F7/M7", "Dungeons"],
     "discord_server_id": "1428842479087779934",
     "discord_icon_hash": "78a0d43bd0bf4134943add83a1e2015d",
     "discord_link": "https://discord.gg/z3x7umtusT"
@@ -224,5 +224,16 @@
     "discord_icon_hash": "3388dfeec7a372ce5e101978ffc7ecc0",
     "website_link": "https://nebulaclient.net",
     "discord_link": "https://nebulaclient.net/discord"
+  },
+  {
+    "name": "NoammAddons",
+    "type": "Cheat Client",
+    "version": ["1.8.9"],
+    "price": ["free"],
+    "features": ["F7/M7", "Dungeons", "Slayer", "Misc"],
+    "discord_server_id": "1281979747605418024",
+    "discord_icon_hash": "f8a4adb4effd24b224f5ee28dce178d1",
+    "discord_link": "https://discord.gg/pj9mQGxMxB",
+    "github_link": "https://github.com/Noamm9/NoammAddons/"
   }
 ]
